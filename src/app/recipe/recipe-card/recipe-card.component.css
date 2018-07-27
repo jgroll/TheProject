@@ -1,0 +1,11 @@
+.recipe-card{
+    height: 400px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.recipe-image{
+    background-size: cover;
+}
+.image-card{
+    height: 200px;
+}

@@ -1,0 +1,29 @@
+.icon-header{
+    padding: 0 10px;
+}
+.spacer-header{
+    flex: 1 1 auto;
+}
+.text-button-header{
+    font-size: 15px;
+    color: white;
+}
+.button-header{
+    margin-left: 25px;
+}
+.card-header{
+    background-color: #3f51b5;
+}
+.white-icon{
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.img-header{
+    height: 50px;
+}
+
+.header{
+    margin-bottom: 20px;
+}

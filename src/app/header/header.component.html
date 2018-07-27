@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-elevation-z10 header" color="primary">
+  <img src="assets/img/chef_hat.png" alt="Chef HAT" class="img-header">
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item class="none_outline"><p class="h2">Random</p></button>
+    <button mat-menu-item class="none_outline">TO</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu" class="button-header none_outline"><span class="text-button-header">Recette</span></button>
+  <button mat-button class="none_outline"><span class="text-button-header">Course</span></button>
+
+
+  <span class="spacer-header"></span>
+  <mat-icon class="icon-header white-icon">list</mat-icon>
+  <mat-icon class="icon-header white-icon">account_circle</mat-icon>
+</mat-toolbar>

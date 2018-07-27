@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    margin: 0;
+    background-color: #eeeeee;
+    height: 100%;
+    width: 100%;
+}
+
+.none_outline{
+    outline: 0 !important;
+
+}
