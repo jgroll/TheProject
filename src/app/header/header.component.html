@@ -1,8 +1,8 @@
 <mat-toolbar class="mat-elevation-z10 header" color="primary">
-  <img src="assets/img/chef_hat.png" alt="Chef HAT" class="img-header">
+  <a href="/#/"><img src="assets/img/chef_hat.png" alt="Chef HAT" class="img-header"></a>
 
   <mat-menu #menu="matMenu">
-    <a href=""><button mat-menu-item class="none_outline">Recette</button></a>
+    <a href="/#/recette"><button mat-menu-item class="none_outline">Recette</button></a>
     <a href=""><button mat-menu-item class="none_outline">TO</button></a>
   </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu" class="button-header none_outline"><span class="text-button-header">Recette</span></button>
